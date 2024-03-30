@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(150deg, #1684db, #0b0a43);
+    padding: 10px 10px 30px;
+}
+
+.container .header {
+    margin: 5% 11% 2%;
+    display: flex;
+    padding: 11px;
+    align-items: center;
+    gap: 5px;
+}
+
+.container .header img {
+    width: 100px;
+    max-width: 100%;
+}
+
+.container .header h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.container .button-notes {
+    margin: 0 14% 3%;
+    outline: none;
+    border-radius: 40px;
+    padding: 15px 25px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #0033c3, #00a1ff);
+    box-shadow: 0px 0px 9px 7px #3700a9;
+}
+
+.container .button-notes img {
+    width: 25px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+
+.container .loo {
+    position: relative;
+    width: 500px;
+    margin: 20px 12%;
+}
+
+.container .loo p {
+    font-size: 20px;
+    padding: 28px;
+    border: none;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 180px;
+    border-radius: 8px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.container .loo p:focus {
+    outline: none;
+}
+
+.container .loo .clear {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
